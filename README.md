@@ -3,7 +3,7 @@ Repository for the filtering of complex networks. It includes codes to generate 
 
 The repository is divided in 4 branches: 
 
-# BA_networks
+- BA_networks
 This branch containes the code that create BA networks, it is possible to create them undirected, directed, binary and weighted.
 
 # ER_network
