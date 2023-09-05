@@ -15,3 +15,11 @@ This repository containes the functions that implement 4 different filters:
 - The Disparity filter ( Serrano, Bogu ̃n ́a, & Vespignani)
 - The Pólya filter ( Marcaccioli & Livan)
 - The Max Entropy filter ( Squartini, MAstrandrea & Garlaschelli )
+
+# Filter_analysis
+This branch contains some files to analyse the performance of filtering algorithm: 
+- comparison_heterogeneity.m and comparison_plot.m are files with metrics implemented to compare the backbones extracted by the filters
+- gtest_reshuffling.m gtest3.m and gtest4.m are ground-truth-based tests implemented to test the abilities of filters to detect anomalies
+- pvaluesapprox.m and test_hypergeom.m are dedicated to the study of the Hyeprgeometric filter
+- plot_net.m and write_map.m are dedicated to the visualisation of the network of the US air traffic 
+
